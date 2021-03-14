@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ILive_swift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ILive_swift
+  pod 'Alamofire', '~> 5.2' #网络加载
+  pod 'ReachabilitySwift' #网络检测
+  pod "ESPullToRefresh" #上啦加载
+  pod 'RxSwift', '6.1.0' # 响应式编程
+  pod 'RxCocoa', '6.1.0'
+  pod 'SnapKit', '~> 5.0.0' #自动布局
+  pod 'Kingfisher', '~> 6.0' #图片加载
+  pod 'MonkeyKing' # 分享服务
+  pod 'ImagePicker' #图片选择
+  pod 'MJExtension' #json解析
+  pod 'AFNetworking' #网络加载
+end
