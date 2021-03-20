@@ -11,6 +11,9 @@
 		AA7A5C5D25FB603800CFA0F0 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7A5C5A25FB603800CFA0F0 /* HTMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA7A5C5E25FB603800CFA0F0 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7A5C5C25FB603800CFA0F0 /* HTMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA7A5C8525FDD2A400CFA0F0 /* FrontModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7A5C8425FDD2A400CFA0F0 /* FrontModel.m */; };
+		AA91FDFE2605B26600751C72 /* ILiveTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FDFD2605B26500751C72 /* ILiveTabbarController.swift */; };
+		AA91FE012605B3B900751C72 /* ILiveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FE002605B3B900751C72 /* ILiveHomeViewController.swift */; };
+		AA91FE042605B3E700751C72 /* ILiveMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FE032605B3E700751C72 /* ILiveMineViewController.swift */; };
 		AAF51E8F25FB285000A161A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF51E8E25FB285000A161A7 /* AppDelegate.swift */; };
 		AAF51E9325FB285000A161A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF51E9225FB285000A161A7 /* ViewController.swift */; };
 		AAF51E9625FB285000A161A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF51E9425FB285000A161A7 /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		AA7A5C5C25FB603800CFA0F0 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 		AA7A5C8325FDD2A400CFA0F0 /* FrontModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontModel.h; sourceTree = "<group>"; };
 		AA7A5C8425FDD2A400CFA0F0 /* FrontModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontModel.m; sourceTree = "<group>"; };
+		AA91FDFD2605B26500751C72 /* ILiveTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveTabbarController.swift; sourceTree = "<group>"; };
+		AA91FE002605B3B900751C72 /* ILiveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveHomeViewController.swift; sourceTree = "<group>"; };
+		AA91FE032605B3E700751C72 /* ILiveMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveMineViewController.swift; sourceTree = "<group>"; };
 		AAF51E8B25FB285000A161A7 /* ILive_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILive_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF51E8E25FB285000A161A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF51E9225FB285000A161A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			children = (
 				AAF51E8E25FB285000A161A7 /* AppDelegate.swift */,
 				AAF51E9225FB285000A161A7 /* ViewController.swift */,
+				AA91FDFD2605B26500751C72 /* ILiveTabbarController.swift */,
+				AA91FE002605B3B900751C72 /* ILiveHomeViewController.swift */,
+				AA91FE032605B3E700751C72 /* ILiveMineViewController.swift */,
 				AAF51EA525FB2A3900A161A7 /* NetWorkApi.swift */,
 				AAF51EA825FB2A5C00A161A7 /* NetWorkManager.swift */,
 				AA7A5C5725FB600300CFA0F0 /* HTML_Parser */,
@@ -237,10 +246,13 @@
 				AA7A5C5D25FB603800CFA0F0 /* HTMLNode.m in Sources */,
 				AA7A5C5E25FB603800CFA0F0 /* HTMLParser.m in Sources */,
 				AA7A5C8525FDD2A400CFA0F0 /* FrontModel.m in Sources */,
+				AA91FE042605B3E700751C72 /* ILiveMineViewController.swift in Sources */,
 				AAF51EA925FB2A5C00A161A7 /* NetWorkManager.swift in Sources */,
+				AA91FE012605B3B900751C72 /* ILiveHomeViewController.swift in Sources */,
 				AAF51E9325FB285000A161A7 /* ViewController.swift in Sources */,
 				AAF51E8F25FB285000A161A7 /* AppDelegate.swift in Sources */,
 				AAF51EA625FB2A3900A161A7 /* NetWorkApi.swift in Sources */,
+				AA91FDFE2605B26600751C72 /* ILiveTabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
