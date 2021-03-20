@@ -14,6 +14,7 @@
 		AA91FDFE2605B26600751C72 /* ILiveTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FDFD2605B26500751C72 /* ILiveTabbarController.swift */; };
 		AA91FE012605B3B900751C72 /* ILiveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FE002605B3B900751C72 /* ILiveHomeViewController.swift */; };
 		AA91FE042605B3E700751C72 /* ILiveMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FE032605B3E700751C72 /* ILiveMineViewController.swift */; };
+		AA91FE0726061FA700751C72 /* ILiveHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91FE0626061FA700751C72 /* ILiveHomeCell.swift */; };
 		AAF51E8F25FB285000A161A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF51E8E25FB285000A161A7 /* AppDelegate.swift */; };
 		AAF51E9325FB285000A161A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF51E9225FB285000A161A7 /* ViewController.swift */; };
 		AAF51E9625FB285000A161A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF51E9425FB285000A161A7 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		AA91FDFD2605B26500751C72 /* ILiveTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveTabbarController.swift; sourceTree = "<group>"; };
 		AA91FE002605B3B900751C72 /* ILiveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveHomeViewController.swift; sourceTree = "<group>"; };
 		AA91FE032605B3E700751C72 /* ILiveMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveMineViewController.swift; sourceTree = "<group>"; };
+		AA91FE0626061FA700751C72 /* ILiveHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILiveHomeCell.swift; sourceTree = "<group>"; };
 		AAF51E8B25FB285000A161A7 /* ILive_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILive_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF51E8E25FB285000A161A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF51E9225FB285000A161A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				AAF51E9225FB285000A161A7 /* ViewController.swift */,
 				AA91FDFD2605B26500751C72 /* ILiveTabbarController.swift */,
 				AA91FE002605B3B900751C72 /* ILiveHomeViewController.swift */,
+				AA91FE0626061FA700751C72 /* ILiveHomeCell.swift */,
 				AA91FE032605B3E700751C72 /* ILiveMineViewController.swift */,
 				AAF51EA525FB2A3900A161A7 /* NetWorkApi.swift */,
 				AAF51EA825FB2A5C00A161A7 /* NetWorkManager.swift */,
@@ -252,6 +255,7 @@
 				AAF51E9325FB285000A161A7 /* ViewController.swift in Sources */,
 				AAF51E8F25FB285000A161A7 /* AppDelegate.swift in Sources */,
 				AAF51EA625FB2A3900A161A7 /* NetWorkApi.swift in Sources */,
+				AA91FE0726061FA700751C72 /* ILiveHomeCell.swift in Sources */,
 				AA91FDFE2605B26600751C72 /* ILiveTabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
